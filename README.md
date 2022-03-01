@@ -106,3 +106,5 @@ Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` f
 ---
 
 Happy coding!
+
+['Installation' (`django-allauth` Docs)](https://django-allauth.readthedocs.io/en/latest/installation.html)
