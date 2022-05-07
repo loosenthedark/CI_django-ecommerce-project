@@ -71,6 +71,11 @@ body {
   z-index: -1;
 }
 
+a.category-badge > span.badge:hover {
+  background: #211529 !important;
+  color: #fff !important;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Push body down and add top-padding on smaller screens */
