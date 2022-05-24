@@ -49,6 +49,19 @@ body {
   color: white;
 }
 
+.btn-outline-black {
+  background: white;
+  color: black !important; /* use important here to override default link colours for <a> elements */
+  border: 1px solid black;
+}
+
+.btn-outline-black:hover,
+.btn-outline-black:active,
+.btn-outline-black:focus {
+  background: black;
+  color: white !important;
+}
+
 .text-black {
   color: #000 !important;
 }
