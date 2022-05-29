@@ -30,7 +30,7 @@ class OrderForm(forms.ModelForm):
             "postcode": "Postal Code",
             "town_or_city": "Town or City",
             "street_address_1": "Street Address 1",
-            "street_address_1": "Street Address 2",
+            "street_address_2": "Street Address 2",
             "country": "Country",
         }
 
@@ -39,7 +39,7 @@ class OrderForm(forms.ModelForm):
             if self.fields[field].required:
                 placeholder = f"{placeholders[field]} *"
             else:
-                placeholder = {placeholders[field]}
+                placeholder = f"{placeholders[field]}"
             self.fields[field].widget.attrs["placeholder"] = placeholder
             self.fields[field].widget.attrs["class"] = "stripe-style-input"
             self.fields[field].label = False
